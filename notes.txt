@@ -1,0 +1,65 @@
+
+
+Employment:
+
+    Full-Stack Web Developer
+    Mighty Oaks (2016 - current)
+    Mightycart (e-commerce + logistics)
+
+        Uses:
+            Python, Django
+            HTML+CSS+JS
+            Bootstrap, jQuery
+            Postgres, Redis, Celery, ElasticSearch, uWSGI, nginx
+            JSON+XML
+            REST
+            Linux (CentOS 7)
+            GIT
+            
+        REST:
+            With our locker
+            With ItemMaster
+            With GS1 (coming soon)
+            For our JS
+            For 3rd parties (POS etc)
+
+        Core library, client sites depend on it
+        Inheritance of:
+            Django templates
+            LESS
+            Python requirements
+            Server configurations
+
+        Dev ops:
+            Capturing our manual processes in scripts
+                Versioning of core library
+                New clients
+                    Generating new projects, server configs
+            Working towards full automation
+
+Education:
+
+    B.Sc in Mathematics (2013)
+    Cape Breton University
+    Dalhousie University
+
+Personal projects:
+
+    Programming languages
+    
+        Put them aaaall up on github.
+        Webfus should get the highlight, obviously.
+    
+    Web sites
+    
+        I'm not a huge fan of the web.
+        It's interesting to work with, though.
+        I've got a website I play with (bayersglassey.com).
+        
+    Games
+    
+        Games are how I learned to program.
+        QBASIC -> VB -> C / C++ -> Python
+        SDL lib for graphics/sound.
+
+
