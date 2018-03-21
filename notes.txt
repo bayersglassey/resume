@@ -1,41 +1,165 @@
 
+Stuff I did:
+
+    Championed good software practises
+    Introduced code reviews into our workflow
+
+Stuff I stole from job ads:
+
+    · Have a strong sense of ownership and customer focus
+    · Care about code quality and readability
+    · Are comfortable working with data structures as much as discussing software development processes with your peers
+    · Get inspired by collecting product and system metrics, and by proposing improvements
+    · Persevere when troubleshooting build, deployment or live issues
+    · Take code review feedback gracefully and provide your feedback with abundance
+    · Love to see your code deployed, and want to see it happening more often
+    · Are willing to drive your own career development and involve your manager as a partner and mentor
+
+    We trust our employees because we only hire the best.
+    We want people who are prepared to challenge the status quo and always raise the bar.
+    And we do all this while having fun and enjoying the tranquility of island life.
+
+    Experience with the following would be beneficial:
+    · Java ecosystem
+    · JavaScript/Front End
+    · AWS ecosystem
+    · Devops tools and culture
+    · Mentoring and leadership
+
+    We’re looking for full-stack engineers – you will be working with
+        Linux and Bash, AWS, SQL, queues, REST services, Java and Groovy, DropWizard, HTML and JavaScript.
+
+    A demonstrated problem solver capable of working both on their own and in tandem with other developers.
+    A continuous learner capable of learning and adapting as required by each task.
+    Adheres to modern software development practices such as the following:
+        Write maintainable code.
+        Develops and uses unit tests to validate the majority of the codebase.
+        Participates in code reviews with their peers.
+
+    JavaScript & TypeScript
+    Build process setup:
+        Development and production code building and bundling
+        Consistent asset (CSS, images) management
+        Unit and integration tests
+    Frontend specific technologies:
+        DOM, events
+        Page layout and styling (HTML, CSS)
+        Understanding JS program lifecycle within browser; experience with Web Workers
+        Understanding security considerations (CORS, XSS) and writing secure code
+    Backend (desirable but not mandatory) specific technologies:
+        Experience implementing server-side WebAPI in NodeJS or C#
+        Understanding relational and NoSQL database concepts, basic SQL knowledge
+        Knowledge of some ORM
+
+    Do you love coding? Do you love numbers? Do you get excited when you have a chance to release your inner data nerd?
+    You have a passion for coding and making great products where form equals function.
+    You should be comfortable working in an open-ended environment where roles are flexible,
+        everything is always changing, and communication is essential.
+    You'll be part of a small, nimble team of developers who love solving hard problems.
+    Daily responsibilities include a great mix of designing, building, troubleshooting, fixing and celebrating.
+
+    Professional Experience with PHP or Python web application development
+    Experience with JavaScript frameworks, React a big plus
+    Demonstrable understanding of front-end and/or back-end architectures
+    Strong curiosity, or understanding, of: AWS, Node, Go, SQL, NoSQL, Docker & Linux
+    Can see the 'larger picture' and value clarity, testing and documentation
+    Version Control Systems, Git preferred
+
+    Front-end tooling: Sass (SCSS), Babel, Webpack & Automated testing
+    Experience with Django, Pyramid (Python) or Laravel (PHP)
+    Experience with Wordpress
+    Experience with front-end analytics
+    Familiarity with agile development and formalized quality assurance
+    Experience working in the SaaS environment (Software as a Service)
+    Appreciation for the complexity of delivering large scale solutions to enterprise level clients
+
+    Modern MVC frameworks e.g. Mojolicious, Django, or Rails
+    Modern testing frameworks e.g. prove, jUnit, or Spock
+    Writing and debugging SQL queries e.g. Oracle, MySQL
+    Building, testing, and consuming RESTful web services
+    Automated build and deploy tools e.g. Jenkins and Ansible
+    Version control systems such as SVN or Git
+    Basic Linux + bash scripting
+
+    Perl or other high level scripting language e.g. PHP or Python,
+    Client side web development e.g. HTML, CSS, Javascript/jQuery, or JSON
+
+    Experience with tools e.g. Mojolicious, DBIx::Class, perlbrew
+    Experience with message queue implementation e.g. xmlBlaster, JMS, RabbitMQ
+    Knowledge of network administration tasks e.g. Ipv4/IPv6 addressing, DNS, or DHCP
+    Experience with automated build and deploy tools such as Jenkins and Ansible
+
+    Modern programming languages and frameworks
+    Software testing procedures and frameworks
+    Modern technical architectures and configuration
+    Supporting and maintaining enterprise scale software
+
+    Ability to be an enthusiastic and resourceful team member,
+        with excellent interpersonal and communication skills (written and oral)
+        in order to interact effectively with colleagues, staff and vendors in a client-oriented environment.
+    Ability to successfully contribute to complex projects
+    Willingness and ability to acquire new computing and other related skills independently
+    Ability to problem solve effectively
+    Ability to write coherent technical and user documentation
+    Ability to work in an effective and organized manner in a complex environment
+    Self-motivated with initiative and the ability to participate in team activities
+    Proficiency in supporting enterprise wide applications
+    Willingness and ability to follow direction as required
 
 Employment:
 
-    Full-Stack Web Developer
+    Full-Stack Engineer
     Mighty Oaks (2016 - current)
     Mightycart (e-commerce + logistics)
 
-        Uses:
+        Front-end
+            HTML+CSS+JS, of course
+            LESS, Bootstrap, jQuery
+            REST (originally using "raw" jQuery, but I transitioned us to Fetch API)
+            Some exposure to Angular
+                Coworker created a mobile app using Ionic+Angular, communicated with
+                our main product via REST, I often had to poke around the Angular code
+                to understand what was being passed back and forth
+
+        Back-end
+            Linux (CentOS 7), GIT
             Python, Django
-            HTML+CSS+JS
-            Bootstrap, jQuery
             Postgres, Redis, Celery, ElasticSearch, uWSGI, nginx
-            JSON+XML
-            REST
-            Linux (CentOS 7)
-            GIT
-            
-        REST:
-            With our locker
-            With ItemMaster
-            With GS1 (coming soon)
-            For our JS
-            For 3rd parties (POS etc)
+            Spreadsheet-based APIs (CSV)
+            REST services (Django REST framework)
+                Internal API used by e.g. site's JS, mobile app's JS, lockers
+                External API used by partners, e.g. POS vendors
+            REST clients
+                Internal locker API
+            XML parsing
+                ItemMaster & GS1 APIs (product data + images)
 
-        Core library, client sites depend on it
-        Inheritance of:
-            Django templates
-            LESS
-            Python requirements
-            Server configurations
+        DevOps
+            Got everything under source control (EVERYTHING)
+            Automated almost everything, documented the automation
+            Created scripts for deploying new library versions, upgrading clients
+                to new versions
+            Collected the various config files (nginx, uwsgi, etc) from our servers,
+                parameterized them, and generated a tiny Python module for generating
+                new sets of config files from an initial set of parameters
+                (Domain names, IP addresses, directory names on server, client name,
+                repo URL, etc...)
+            Restructured our library's repo so that it could be run on its own with default values
+            Added scripts, Django mgmt commands, to populate new client servers with required database objects
+            Created project template + script (under source control) allowing creation of new
+                client repos (instead of copy-paste-editing existing client repos...)
 
-        Dev ops:
-            Capturing our manual processes in scripts
-                Versioning of core library
-                New clients
-                    Generating new projects, server configs
-            Working towards full automation
+        Testing
+            Our setup: library + client repos, separate tests for each
+            Refactored existing code, separating out business logic & testing it
+
+        Library maintenance
+            Core library, client sites depend on it
+            Inheritance of:
+                Django templates
+                LESS
+                Python requirements
+                Server configurations
 
 Education:
 
