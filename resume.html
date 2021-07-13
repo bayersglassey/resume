@@ -10,6 +10,12 @@
 
     .main-title {
         font-size: 40px;
+        font-weight: bold;
+    }
+
+    .sub-title {
+        font-size: 28px;
+        font-weight: bold;
     }
 
     h1 {
@@ -205,77 +211,60 @@
 <div class="page-container">
     <div class="intro" style="width: 90%; margin: auto">
         <div class="column-container">
-            <div class="" style="float: right;">
+            <div style="float: left">
+                <div class="main-title subliminal-message">
+                    Ben Ayers-Glassey
+                </div>
+                <span class="contact-info">bayersglassey@gmail.com</span>
                 <br>
-                <div class="">
-                    <span class="contact-header">Email:</span>
-                    <span class="contact-info">bayersglassey@gmail.com</span>
-                </div>
-                <div class="">
-                    <span class="contact-header">Github:</span>
-                    <span class="contact-info">
-                        <a href="https://www.github.com/bayersglassey">https://www.github.com/bayersglassey</a>
-                    </span>
-                </div>
-                <div class="">
-                    <span class="contact-header">Phone:</span>
-                    <span class="contact-info">778 533 2207</span>
-                </div>
-                <div class="">
-                    <span class="contact-header">Address:</span>
-                    <span class="contact-info">Victoria, BC</span>
-                </div>
+                <span class="contact-info">(778) 533-2207 &nbsp; Victoria, BC</span>
             </div>
-            <h1 class="main-title subliminal-message">
-                Ben Ayers-Glassey
-            </h1>
-            <h3>Full-Stack Developer</h3>
+            <div style="float: right">
+                <br>
+                <div class="sub-title">
+                    Full-Stack Developer
+                </div>
+                <br>
+                <span class="contact-info">
+                    <a href="https://www.github.com/bayersglassey">https://www.github.com/bayersglassey</a>
+                </span>
+                <br>
+            </div>
         </div>
     </div>
     <div class="column-container">
         <hr>
-        <h3>Skills &amp; Technologies</h3>
         <p>
-            Things I'm already comfortable using, and in most cases have set up and/or debugged at work.
+            I'm equally at home designing a new feature, teasing apart legacy spaghetti, and everything in between.
+            I prefer smaller projects with a good amount of autonomy, where I can have a big impact on the project's success.
+            I enjoy being in direct contact with clients, and being a part of the requirements and design process.
         </p>
         <p>
-            <i>Backend, Linux:</i>
-            <br>
-            C &middot; Python &middot; Django &middot; Django REST Framework &middot; Celery &middot;
-            Redis &middot; Elasticsearch &middot; PostgreSQL &middot; uWSGI &middot; Nginx &middot;
-            supervisord &middot; bash + standard UNIX tools &middot; Jenkins &middot; Java &middot;
-            AWS &middot; Docker &middot; OAuth2 + OpenID Connect &middot; Node.js
+            Here is a scary list of technologies I have been paid to wrangle.
+            (I also know C, but nobody has paid me for it yet.)
         </p>
         <p>
-            <i>Backend, Windows:</i>
+            <b>Backend (Linux):</b>
             <br>
-            C# &middot; SQL Server &middot; classic ASP &middot; Visual Basic 6 &middot; .NET COM interop
+            Python · Django · Django REST Framework · Celery · Pyramid · SQL Alchemy · Redis · Elasticsearch ·
+            PostgreSQL · uWSGI · Nginx · supervisord · systemd · RabbitMQ · bash · Java 8 · Jenkins · AWS · Docker ·
+            OAuth2 · OpenID Connect
         </p>
         <p>
-            <i>Frontend:</i>
+            <b>Frontend:</b>
             <br>
-            HTML &middot; CSS &middot; Javascript &middot; ES6 &middot;
-            DOM and various HTML5 APIs &middot;
-            jQuery &middot; LESS &middot; Bootstrap &middot; React &middot; Redux
+            HTML · CSS · Javascript · jQuery · LESS · Bootstrap · React · Angular
         </p>
         <p>
-            <i>API integrations:</i>
+            <b>Backend (Windows):</b>
             <br>
-            JSON over HTTPS (REST and otherwise) &middot; CSV over FTP &middot; Excel over email &middot;
-            ISO-8583 over raw TCP/IP &middot; Etc...
-            <br>
-            Online payments &middot; Bank transfers &middot; POS systems &middot;
-            Barcode scanners &middot; Etc...
+            C# · SQL Server · Classic ASP · VB.NET · VB6 · Java · COM
         </p>
         <p>
-            I'm equally at home designing a new feature,
-            teasing apart legacy spaghetti, and everything in between.
-            I love writing documentation and tools.
-            I love the feeling of effortlessly solving a problem for someone because I had the right docs and tools.
-            I make a point of getting things into a test harness.
-            I will learn any language, tool, or system, and enjoy it.
-            I'm on the lookout for coworkers who share my passion
-            for making good, working software.
+            <b>API integrations:</b>
+            <br>
+            JSON over HTTPS (RESTful and otherwise) · CSV over FTP · HL7 · Excel over email · ISO-8583 over raw TCP/IP ·
+            Payment gateways · Bank transfers · POS systems · Barcode scanners · Laboratory Management Systems
         </p>
     </div>
     <div class="column-container">
@@ -286,6 +275,26 @@
                     <h2>Industry Experience</h2>
 
                     <p>
+                        <b>Backend Developer</b>
+                        <br>
+                        Semaphore Solutions, Victoria, BC
+                        <br>
+                        Jan 2021 &mdash; current
+                    </p>
+                    <p>
+                        Semaphore specializes in custom software integrations for
+                        genomics laboratories.
+                    </p>
+                    <ul>
+                        <li>First 3 months: took over maintenance of a test-ordering portal
+                        (Python backend + Angular frontend)</li>
+                        <li>Currently on a team dedicated to supporting Helix (helix.com),
+                        who are doing population-level genome sequencing and COVID testing
+                        (so, very high-volume data processing, and rapidly changing
+                        requirements in response to COVID)</li>
+                    </ul>
+
+                    <p>
                         <b>Full-Stack Developer</b>
                         <br>
                         Bambora, Victoria, BC
@@ -293,29 +302,16 @@
                         Jan 2020 &mdash; Dec 2020 (1-year contract)
                     </p>
                     <p>
-                        Scrum team within a larger organization.
-                        <br>
-                        Worked on 2 different product streams:
+                        Worked on two different product streams:
                     </p>
                     <ul>
-                        <li>
-                            Internal tools for sales &amp; customer service
-                            <ul>
-                                <li>
-                                    Python/Django microservices + React apps</li>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Core payments system
-                            <ul>
-                                <li>high-volume transaction processing</li>
-                                <li>integrations w/ major financial institutions</li>
-                            </ul>
-                        </li>
+                        <li>Internal tooling: Python/Django microservices + React apps</li>
+                        <li>High-volume transaction processing: SQL Server + various languages</li>
                     </ul>
 
-                    <hr>
+                </div>
+                <div class="column-right">
+
                     <p>
                         <b>Full-Stack Developer</b>
                         <br>
@@ -323,107 +319,13 @@
                         <br>
                         Oct 2016 &mdash; Dec 2019
                     </p>
-                    <p>
-                        Very small team. Wrote &amp; maintained major features with little guidance.
-                        <br>
-                        Communicated directly with external stakeholders, in many cases was first point of contact.
-                        <br>
-                        Launched e-commerce sites for grocers across Canada, and locker services for Costco &amp; COPA Airlines.
-                    </p>
-
-                </div>
-                <div class="column-right">
-
-                    <!--
-                    <p>
-                        Worked directly with:
-                    </p>
                     <ul>
-                        <li>Linux (CentOS/Fedora)</li>
-                        <li>GIT &middot; SSH &middot; FTP &middot; Fabric &middot; Systemd &middot; Supervisord</li>
-                        <li>Bash &middot; Python3</li>
-                        <li>Django &middot; Mezzanine &middot; Django REST Framework</li>
-                        <li>Postgres &middot; Redis &middot; Elasticsearch</li>
-                        <li>Celery &middot; uWSGI &middot; Nginx</li>
-                        <li>JSON &middot; XML &middot; CSV</li>
-                        <li>HTML &middot; CSS &middot; JavaScript</li>
-                        <li>jQuery &middot; Bootstrap &middot; LESS &middot; React</li>
-                        <li>Some experience with: Ionic &middot; Java &middot; C# &middot; Ansible</li>
+                        <li>Very small team. Wrote &amp; maintained major features with little guidance.</li>
+                        <li>In many cases, I was first point of contact for clients.</li>
+                        <li>Launched e-commerce sites for grocers across Canada, and locker services for Costco &amp; COPA Airlines.</li>
                     </ul>
-                    -->
 
-                    <h2>Personal Projects</h2>
-                    <p>
-                        I taught myself to program at a young age, writing games in QBASIC, VB6, Flash, and C++.
-                    </p>
-                    <p>
-                        In university I studied mathematics and started writing toy programming languages in C
-                        (which I continue to do &mdash; it's addictive).
-                    </p>
-                    <p>
-                        I ventured into the software industry, met Python (&hearts;), and became a web developer.
-                        Seems to have stuck so far.
-                    </p>
-                    <p>
-                        I continue to write C at home, so I don't drift away in a sea of JSON...
-                        It comes in handy too, when debugging things like uWSGI or the networking stack.
-                    </p>
-                    <!--<p>
-                        <h4>COBJ</h4>
-                        Minimalist serializable data structures in C
-                        <br>(and inevitably, a tiny programming language)
-                        <br><a href="https://github.com/bayersglassey/cobj">github.com/bayersglassey/cobj</a>
-
-                        <h4>FUS / Functious</h4>
-                        Tiny functional stack-based programming language
-                        <br>Written in C, includes plugins for uWSGI, JS, Python
-                        <br><a href="https://github.com/bayersglassey/fus2018">github.com/bayersglassey/fus2018</a>
-
-                        <h4>Geom / Depths of Uo</h4>
-                        C graphics library + geometric exploration game
-                        <br><a href="https://github.com/bayersglassey/geom2018">github.com/bayersglassey/geom2018</a>
-
-                        <h4>AislePicker</h4>
-                        Vehicle Route Problem in Javascript with &lt;canvas&gt;
-                        <br><a href="https://github.com/bayersglassey/aislepicker">github.com/bayersglassey/aislepicker</a>
-
-                        <h4>CartBox</h4>
-                        Ultra-minimalist e-commerce + API + analytics in Django
-                        <br><a href="https://github.com/bayersglassey/cartbox">github.com/bayersglassey/cartbox</a>
-
-                        <h4>Abippity + Sapiness</h4>
-                        ABAP/SAP interpreter/emulator in Python + Django
-                        <br><a href="https://github.com/bayersglassey/abippity-sapiness">github.com/bayersglassey/abippity-sapiness</a>
-
-                        <h4>ThingsHappening</h4>
-                        API-based event management site in Django
-                        <br><a href="https://github.com/bayersglassey/thingshappening">github.com/bayersglassey/thingshappening</a>
-
-                        <h4>"It's a bug"</h4>
-                        Global Game Jam 2019, Javascript with &lt;canvas&gt;
-                        <br><a href="https://github.com/bayersglassey/ggj19_js">github.com/bayersglassey/ggj19_js</a>
-
-                    </p>-->
-
-                    <hr>
-                    <h2>Other Experience</h2>
-
-                    <p>
-                        <b>Treasurer &amp; Teacher's Assistant</b>
-                        <br>
-                        Lambrick Park Preschool &amp; Childcare, Victoria BC
-                        <br>
-                        2019 &mdash; 2020
-                    </p>
-
-                    <p>
-                        <b>Bookkeeper, Night Auditor, Inventory Control</b>
-                        <br>
-                        Various, across Canada
-                        <br>
-                        2013 &mdash; 2016
-                    </p>
-
+                    <h2>Education &amp; Background</h2>
                     <p>
                         <b>B.Sc. Mathematics</b>
                         <br>
@@ -431,7 +333,16 @@
                         <br>
                         2013
                     </p>
-
+                    <p>
+                        I taught myself to program at a young age, writing games in QBASIC, VB6, Flash, and C++.
+                    </p>
+                    <p>
+                        In university I studied mathematics and started writing toy programming languages in C.
+                    </p>
+                    <p>
+                        I ventured into the software industry, met Python (&hearts;), and became a web developer.
+                        Backend is my forte.
+                    </p>
                 </div>
             </div>
         </div>
